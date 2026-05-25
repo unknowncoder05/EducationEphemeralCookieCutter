@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pm-scheduling"
+version = "0.1.0"
+description = "ProjectMaker abstract capability package: pm-scheduling"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "django>=4.2",
+    "djangorestframework>=3.14",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pm_scheduling*"]

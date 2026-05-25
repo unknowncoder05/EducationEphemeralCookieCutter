@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pm-content"
+version = "0.1.0"
+description = "ProjectMaker shared content and engagement primitives"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "django>=4.2",
+    "djangorestframework>=3.14",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pm_content*"]
