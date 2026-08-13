@@ -3,6 +3,7 @@ pm-utils @ git+https://github.com/unknowncoder05/pm-utils.git@e8cee022d30a0ff48e
 pm-auth @ git+https://github.com/unknowncoder05/pm-auth.git@6d92dcdeb404485b1211debe599e9eb2ed93a288
 pm-billing @ git+https://github.com/unknowncoder05/pm-billing.git@39102d47ec18264e8a964ba0eafd0e1a84bd7385
 pm-ai @ git+https://github.com/unknowncoder05/pm-ai.git@c53e4e85eacb5d8301661158f49bd81b78def9ea
+pm-sqlite-snapshots @ git+https://github.com/unknowncoder05/pm-sqlite-snapshots.git
 pm-content @ git+https://github.com/unknowncoder05/community-packages.git@6de68357783f4cd181b3915cf3ecb160d54a954c#subdirectory=pm-content
 pm-community @ git+https://github.com/unknowncoder05/community-packages.git@6de68357783f4cd181b3915cf3ecb160d54a954c#subdirectory=pm-community
 pm-chat @ git+https://github.com/unknowncoder05/community-packages.git@6de68357783f4cd181b3915cf3ecb160d54a954c#subdirectory=pm-chat

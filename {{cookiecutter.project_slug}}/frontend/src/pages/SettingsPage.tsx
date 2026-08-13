@@ -17,7 +17,7 @@ export const SettingsPage: React.FC = () => {
           <div className="flex items-center gap-4">
             <button
               onClick={() => navigate(-1)}
-              className="p-2 hover:bg-secondary-100 dark:hover:bg-secondary-700 rounded-lg transition-colors text-secondary-600 dark:text-secondary-400"
+              className="p-2 hover:bg-secondary-100 dark:hover:bg-secondary-700 rounded-lg transition-colors text-secondary-600 dark:text-secondary-300"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -33,20 +33,20 @@ export const SettingsPage: React.FC = () => {
         <Breadcrumbs />
         
         {/* Profile Section */}
-        <div className="bg-white rounded-lg shadow-sm border border-secondary-200 mb-6">
-          <div className="px-6 py-4 border-b border-secondary-200">
-            <h2 className="text-lg font-semibold text-secondary-900">{t('settings.profile.title')}</h2>
+        <div className="pm-surface-panel rounded-lg shadow-sm mb-6">
+          <div className="px-6 py-4 border-b border-[var(--border-subtle)]">
+            <h2 className="text-lg font-semibold pm-text-strong">{t('settings.profile.title')}</h2>
           </div>
           <div className="px-6 py-4">
             <div className="flex items-center gap-4">
-              <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-semibold">
+              <div className="w-16 h-16 bg-primary-700 rounded-full flex items-center justify-center text-white text-2xl font-semibold">
                 {user?.email?.charAt(0).toUpperCase() || 'U'}
               </div>
               <div>
-                <p className="text-lg font-medium text-secondary-900">
+                <p className="text-lg font-medium pm-text-strong">
                   {user?.first_name} {user?.last_name}
                 </p>
-                <p className="text-sm text-secondary-500">{user?.email}</p>
+                <p className="text-sm pm-text-muted">{user?.email}</p>
               </div>
             </div>
           </div>

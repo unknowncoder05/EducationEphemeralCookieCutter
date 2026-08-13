@@ -1,3 +1,5 @@
+![Template preview](docs/template-preview.svg)
+
 # Education Cookiecutter Template
 
 A production-ready Cookiecutter template for education products featuring:
@@ -55,7 +57,7 @@ cookiecutter /path/to/EducationEphemeralCookieCutter
 ├── BackEndApi/              # Django REST backend
 │   ├── src/
 │   │   ├── api/
-│   │   │   ├── items/      # Example CRUD module — use as pattern for new modules
+│   │   │   ├── items/      # Removable scaffold CRUD module — use as pattern for new modules
 │   │   │   ├── users/      # Authentication, profiles, GitHub OAuth
 │   │   │   ├── ws/         # WebSocket consumer
 │   │   │   └── utils/      # Health check, keep-alive
@@ -146,7 +148,7 @@ The generated backend installs these modules from the `community-packages` GitHu
 - S3 integration for file uploads
 - GitHub OAuth integration
 - Shared domain packages for content, community, chat, notifications, moderation, and media
-- Example CRUD module (`items`) demonstrating ViewSet, serializer, service layer, and Celery task patterns
+- Removable scaffold CRUD module (`items`) demonstrating ViewSet, serializer, service layer, and Celery task patterns; replace or delete it when the product domain is defined.
 - pytest setup with fixtures and factories
 
 ### Frontend (React)
